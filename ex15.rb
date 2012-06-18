@@ -8,7 +8,7 @@ puts txt.read()
 
 puts "I'll ask you to type it again:"
 print prompt
-file_again = gets.chomp()
+file_again = STDIN.gets.chomp()
 
 txt_again = File.open(file_again)
 
